@@ -22,6 +22,7 @@ public class ServerHand implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==uiServ.jButton1)   {
+            System.out.println("holassss");
          if (serMod==null){
             int port = Integer.parseInt(uiServ.jTextField1.getText());
             serMod = new ServerModel(uiServ, port);
@@ -32,6 +33,7 @@ public class ServerHand implements ActionListener{
     }
 
     private void actionListener(ServerHand aThis) {
+        System.out.println("holassss123");
         uiServ.jButton1.addActionListener(aThis);
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
