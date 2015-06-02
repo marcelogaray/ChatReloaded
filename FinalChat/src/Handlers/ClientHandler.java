@@ -52,7 +52,7 @@ public class ClientHandler implements ActionListener{
             dlm.removeAllElements();
             uiClient.jTextArea1.setText("");
         } 
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
        private void jTextField3KeyPressed(KeyEvent evt) {                                       
 
@@ -78,12 +78,12 @@ public class ClientHandler implements ActionListener{
     private void actionListener(ClientHandler aThis) {
         uiClient.jButton1.addActionListener(aThis);
         uiClient.jButton2.addActionListener(aThis);
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     private void keyListener(KeyAdapter aThis) {
         uiClient.jTextField3.addKeyListener(aThis);
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
