@@ -28,13 +28,13 @@ public class PrinHandler implements ActionListener{
         if (ae.getSource()==uiPrincipal.jButton1){
             (new UIServer()).setVisible(true);   
         }
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     private void actionListener(PrinHandler aThis) {
         uiPrincipal.jButton2.addActionListener(aThis);
         uiPrincipal.jButton1.addActionListener(aThis);
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
